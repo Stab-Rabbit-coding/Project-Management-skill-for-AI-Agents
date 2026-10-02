@@ -50,7 +50,7 @@ files are written.
 ## 4. A session, end to end
 
 ```text
-You:  project overseer
+You:  project manager
 AI:   Greenfield mode — no AGENTS.md or WBS.md here, so I'll create projects/.
       What's the project, and what does "done" look like?
 
@@ -103,7 +103,7 @@ AI:   Impact of: admin panel
 
 All commands are English; plain synonyms work.
 
-**Phases** — `project overseer` · `requirements done` · `research` / `skip research` ·
+**Phases** — `project manager` · `requirements done` · `research` / `skip research` ·
 `integrate references` · `standards confirmed` · `approved`
 
 **Execution** — `start <task>` · `back to master` · `done` · `status` · `notices <task>`
@@ -155,7 +155,7 @@ verification" rather than guessed.
 ## 8. Layout
 
 ```text
-project-overseer/
+project-manager/
 ├── SKILL.md                  # Workflow, modes, commands, dashboard
 ├── README.md                 # This manual
 ├── ATTRIBUTION.md            # Provenance, changes, security review
@@ -205,7 +205,7 @@ the exact ordered part, and units kept honest (`lbm` for mass, `lbf` for force, 
 
 ## 10. Installation
 
-Place the `project-overseer/` folder — `SKILL.md`, `references/`, and `templates/` together — in
+Place the `project-manager/` folder — `SKILL.md`, `references/`, and `templates/` together — in
 your agent's skills directory. For Claude Code that is `~/.claude/skills/` for personal use or
 `.claude/skills/` inside a project. The `references/` and `templates/` folders are not optional;
 `SKILL.md` points into both.
