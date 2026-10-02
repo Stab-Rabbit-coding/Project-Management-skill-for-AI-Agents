@@ -1,10 +1,10 @@
 ---
-name: project-overseer
-description: "Full-cycle project management across a whole repository: capture requirements, decompose into a Work Breakdown Structure, estimate effort and feasibility, execute task-by-task with file-based context isolation, propagate cross-task impacts, and render a progress dashboard. Adapts to the repo it finds itself in — drives an existing AGENTS.md + WBS.md/TODO.md governance federation when one is present, otherwise creates its own plan files. Use this skill whenever the user wants to plan, scope, break down, track, or run a multi-task project; says 'project overseer', 'overseer', 'plan this project', 'break this into tasks', 'build a WBS', 'what's left to do', 'show project status', 'add a requirement', or 'archive this project'; or is juggling enough interdependent work that a single conversation is losing track of it. Also use it when a requirement changes mid-project and you need to know which finished work has to be reopened."
+name: project-manager
+description: "Full-cycle project management across a whole repository: capture requirements, decompose into a Work Breakdown Structure, estimate effort and feasibility, execute task-by-task with file-based context isolation, propagate cross-task impacts, and render a progress dashboard. Adapts to the repo it finds itself in — drives an existing AGENTS.md + WBS.md/TODO.md governance federation when one is present, otherwise creates its own plan files. Use this skill whenever the user wants to plan, scope, break down, track, or run a multi-task project; says 'project manager', 'manager', 'plan this project', 'break this into tasks', 'build a WBS', 'what's left to do', 'show project status', 'add a requirement', or 'archive this project'; or is juggling enough interdependent work that a single conversation is losing track of it. Also use it when a requirement changes mid-project and you need to know which finished work has to be reopened."
 license: CC-BY-SA-4.0
 ---
 
-# Project Overseer
+# Project manager
 
 Manage a project from a fuzzy idea to finished, documented work. Plain-language interaction,
 file-based state, no scripts and no network calls required.
@@ -237,7 +237,7 @@ All commands are English. Plain synonyms work — match on intent, not exact str
 
 | Command | Phase | Effect |
 | --- | --- | --- |
-| `project overseer` / `plan this project` | 1 | Begin requirements capture |
+| `project manager` / `plan this project` | 1 | Begin requirements capture |
 | `requirements done` | 1 → 2 | Confirm requirements |
 | `research` / `skip research` | 2 | Run or skip prior-art research |
 | `integrate references` | 2 → 3 | Confirm vetted references, begin decomposition |
