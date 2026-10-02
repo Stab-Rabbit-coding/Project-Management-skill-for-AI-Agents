@@ -1,4 +1,4 @@
-# Project Overseer — User Manual
+# Project Manager — User Manual
 
 Turn an AI assistant into a project manager that keeps its own records.
 
